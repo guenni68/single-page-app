@@ -22,6 +22,8 @@ https://jquery.com/
 
 The design looks at a few simple aspects, patterns and builds on them.
 
+<img src="spa.png"  width="400px">
+
 1. Layout
 The layout is broken up into left nav, top nav and the main body.
 
@@ -32,6 +34,8 @@ So the SPA can be thought of as a state machine that transitions from one state 
 with the SPA (clicking on navs, back, forward buttons).
 
 3. State Machine - User clicks are captured and SPA transitioned from one state/"page" to the next.   
+
+<img src="spa-transition.png" width="400px">
 
 Capturing the above in a sample implementation, the SPA has
 
