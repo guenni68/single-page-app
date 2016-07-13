@@ -60,4 +60,10 @@ Although this is not  a comprehensive framework, it provides ideas and sample co
 
 ### Usage
 
-Download and click on index.html
+1. Download directory 
+2. If you are using python you can run a simple web server using
+   python -m SimpleHTTPServer 8080 
+3. Open localhost:8080 in your browser.
+
+
+<img src="spa-web.png" width="400px">
