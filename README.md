@@ -15,13 +15,11 @@ The technologies used are the well established and mature
 2. JQuery
 
 http://getbootstrap.com/
-"Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web."
 
 https://jquery.com/
-"jQuery is a fast, small, and feature-rich JavaScript library."
-Bootstrap and JQuery are well established mature libraries and provide the foundation for the SPA.
 
-Design
+###Design
+
 The design looks at a few simple aspects, patterns and builds on them.
 
 1. Layout
@@ -38,12 +36,25 @@ with the SPA (clicking on navs, back, forward buttons).
 
 Capturing the above in a sample implementation, the SPA has
 
-Layout- A bootstrap template provides the layout including the top nav, left nav and the main section. The navs and the main 
+###Layout 
+
+A bootstrap template provides the layout including the top nav, left nav and the main section. The navs and the main 
 section are encapsulated in html "div" tags. Each "div" has a id associated with it for targeting via javascript. 
 So the contents of the "div" can be changed based on the state of the SPA.
-Convention- Each nav link has a javascript with the same name. The script  has an onload function and is invoked on state transition 
+
+###Convention
+
+Each nav link has a javascript with the same name. The script  has an onload function and is invoked on state transition 
 in the SPA. For example the nav link "#settings" has a settings.js file with an "onload" function. 
-State transitions- The SPA is transitioned from one state to the next by user actions, like clicking on nav links or pressing 
+
+###State transitions
+
+The SPA is transitioned from one state to the next by user actions, like clicking on nav links or pressing 
 the back and forward buttons.  When a user clicks on a nav link, the event is captured and the script corresponding to the nav is triggered. 
 For example when the nav link "#settings" is clicked index.js captures the event and invokes the "onload" function in settings.js.    
+
 Although this is not  a comprehensive framework, it provides ideas and sample code that you can leverage to build your SPA.
+
+### Usage
+
+Download and click on index.html
