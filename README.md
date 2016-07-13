@@ -28,7 +28,6 @@ The layout is broken up into left nav, top nav and the main body.
 2. Navigation Links
 Navigation links are relative and of the form "#linkName" for example "#settings". 
 Clicking on each link takes the SPA from one "state" to the next and the content of the "main section" changes with each click.
-
 So the SPA can be thought of as a state machine that transitions from one state to the next based on user interacting 
 with the SPA (clicking on navs, back, forward buttons).
 
